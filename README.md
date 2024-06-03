@@ -33,7 +33,7 @@ Real time updates to clients for server events based on client ID. Adapted from 
 - curl may also work to post event
 	- WINDOWS
 	- Note double quotes \\\" escaping.
-	- curl --header "Content-Type: application/json" --data "{\"info\": \"Shark teeth are constantly replaced.\", \"source\": \"https:\/\/en.wikipedia.org\/wiki\/Shark\", \"id\": \"1\"}" http://localhost:3001/fact
+	- curl --header "Content-Type: application/json" --data "{\\\"info\\\": \\\"Shark teeth are constantly replaced.\\\", \\\"source\\\": \\\"https:\/\/en.wikipedia.org\/wiki\/Shark\\\", \\\"id\\\": \\\"1\\\"}" http://localhost:3001/fact
 	- ET. AL.
 	- curl --header "Content-Type: application/json" --data '{"info": "Shark teeth are constantly replaced.", "source": "https://en.wikipedia.org/wiki/Shark", "id": "1"}' http://localhost:3001/fact
 - check status, clients are listed.
